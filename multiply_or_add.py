@@ -22,10 +22,16 @@ number_4 = 40
 # The result is 70
 
 # psuedocode
-def multiply_or_add(number_1, number_2):
-    product_of_two = number_1 * number_2
+def multiply_or_add(first_number, second_number):
+    product_of_two = first_number * second_number
     if product_of_two <= 1000:
         return print("The results is " + product_of_two)
     else:
-        sum_of_two = number_3 + number_4
+        sum_of_two = first_number + second_number
         return print("The results is " + sum_of_two)
+    
+# The first given values
+values_1 = multiply_or_add(20, 30)
+
+# The second given values
+values_2 = multiply_or_add(30, 40)
